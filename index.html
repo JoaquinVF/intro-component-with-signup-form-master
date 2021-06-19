@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <div>
+      <h1>Learn to code by watching others</h1>
+      
+      <p class="mg">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+    <div>
+      <br>
+      <p class="benefit sw"><span>Try it free 7 days</span> then $20/mo. thereafter
+      </p>
+  
+      <div class="ph-box sw">
+        <div>
+          <input type="placeholder" placeholder="First Name" id="firstn" required><img src="./images/icon-error.svg" name="icon-error" class="icon-error"> <span name="error" id="firstNerror" class="error">First Name cannot be empty</span> 
+        </div>
+
+        <div>
+          <input type="placeholder" placeholder="Last Name" id="lastn" required><img src="./images/icon-error.svg" name="icon-error" class="icon-error"><span name="error" class="error">Last Name cannot be empty</span>
+        </div>
+
+        <div>
+          <input type="placeholder" placeholder="Email Address" id="email" required><img src="./images/icon-error.svg" name="icon-error" class="icon-error"><span name="error" class="error"> Email Address cannot be empty</span>
+        </div>
+
+        <div>
+          <input type="password" placeholder="Password" id="password" required><img src="./images/icon-error.svg" name="icon-error" class="icon-error"><span name="error" class="error">Password cannot be empty</span> 
+        </div>
+        <button id="btn" type="button">Claim your free trial</button>
+        <h6>By clicking the button, you are agreeing to our <span class="pink">Terms and Services</span></h6>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Joaquin Villanueva</a>.
+    </p>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>

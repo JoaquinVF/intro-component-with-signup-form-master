@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: white;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("./images/bg-intro-mobile.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    width: 80vw;
+    text-align: center;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 25px 0px;
+}
+p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+.benefit{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 8% 15%;
+    font-weight: 400;
+    text-align: center;
+}
+span{
+    font-weight: 700;
+}
+.ph-box{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.ph-box div{
+    position: relative;
+    color: hsl(0, 100%, 74%);
+    text-align: end;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.sw{
+    box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.123);
+}
+.ph-box, input, button{
+    padding: 6%;
+}
+input, button{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    font-weight: 600;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.267);
+}
+button:active{
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.123) inset;
+}
+h6{
+    margin: 0;
+    color: hsla(246, 25%, 77%, 0.582);
+}
+.pink{
+   color: hsl(0, 100%, 74%);  
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+}
+
+.icon-error{
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 15px;
+}
+.error{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    main{
+        display: flex;
+        align-items: center;
+    }
+    h1, p{
+        text-align: start;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .ph-box{
+        min-width: 35vw;
+    }
+    .mg{
+        margin-right: 10px;
+    }
+    .icon-error{
+        top: 30%;
+    }
+}
